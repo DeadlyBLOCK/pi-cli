@@ -7,12 +7,12 @@ It shares the website's leaderboard.
 
 | System | File |
 |---|---|
-| Windows | [pi-windows-amd64.exe](https://github.com/YOURNAME/pi-cli/releases/latest/download/pi-windows-amd64.exe) |
-| Mac (Apple Silicon) | [pi-macos-arm64](https://github.com/YOURNAME/pi-cli/releases/latest/download/pi-macos-arm64) |
-| Mac (Intel) | [pi-macos-amd64](https://github.com/YOURNAME/pi-cli/releases/latest/download/pi-macos-amd64) |
-| Linux | [pi-linux-amd64](https://github.com/YOURNAME/pi-cli/releases/latest/download/pi-linux-amd64) |
+| Windows | [pi-windows-amd64.exe](https://github.com/DeadlyBLOCK/pi-cli/releases/latest/download/pi-windows-amd64.exe) |
+| Mac (Apple Silicon) | [pi-macos-arm64](https://github.com/DeadlyBLOCK/pi-cli/releases/latest/download/pi-macos-arm64) |
+| Mac (Intel) | [pi-macos-amd64](https://github.com/DeadlyBLOCK/pi-cli/releases/latest/download/pi-macos-amd64) |
+| Linux | [pi-linux-amd64](https://github.com/DeadlyBLOCK/pi-cli/releases/latest/download/pi-linux-amd64) |
 
-Other builds are on the [releases page](https://github.com/YOURNAME/pi-cli/releases/latest).
+Other builds are on the [releases page](https://github.com/DeadlyBLOCK/pi-cli/releases/latest).
 
 ## Run
 
