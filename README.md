@@ -18,6 +18,19 @@ Other builds are on the [releases page](https://github.com/DeadlyBLOCK/pi-cli/re
 
 You need [Go](https://go.dev/dl/) 1.21 or newer. Nothing else is required: the program uses only Go's standard library.
 
+### Quickest: go install
+
+    go install github.com/DeadlyBLOCK/pi-cli@latest
+
+This puts a binary named `pi-cli` in Go's bin folder (usually `~/go/bin`, or `%USERPROFILE%\go\bin` on Windows). If your terminal can't find it, add that folder to your PATH, or check where it went with `go env GOPATH`.
+
+    pi-cli selftest
+    pi-cli
+
+Running the same command again updates you to the newest release.
+
+### From the source
+
 1. Get the source, either with git:
 
        git clone https://github.com/DeadlyBLOCK/pi-cli.git
