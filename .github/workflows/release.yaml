@@ -1,7 +1,7 @@
 name: release
 on:
-  push:
-    tags: ['v*']
+  release:
+    types: [published]
 permissions:
   contents: write
 jobs:
@@ -15,6 +15,7 @@ jobs:
       - run: go vet ./...
       - run: go run . selftest
       - run: sh build-all.sh
-      - run: gh release create "$GITHUB_REF_NAME" dist/* --title "$GITHUB_REF_NAME" --generate-notes
+      - run: gh release upload "$TAG" dist/* --clobber --repo "$GITHUB_REPOSITORY"
         env:
           GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.release.tag_name }}
