@@ -33,7 +33,7 @@ import (
 // DefaultServer is used when no -server flag, PI_SERVER variable or saved
 // setting names one. Put your pi.php address here before building, and the
 // people you give the program to can just run it.
-const DefaultServer = ""
+const DefaultServer = "https://deadlyblock.com/pi/?a=stats"
 
 const (
 	version   = "1.0.0"
