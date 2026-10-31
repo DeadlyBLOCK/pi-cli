@@ -36,7 +36,7 @@ import (
 const DefaultServer = "https://deadlyblock.com/pi/"
 
 const (
-	version   = "1.0.0"
+	version   = "1.0.1"
 	proto     = 4 // keep equal to PROTO in pi.php
 	gamma     = 1.2041199826559248
 	pi64      = "243f6a8885a308d313198a2e03707344a4093822299f31d0082efa98ec4e6c89"
@@ -305,8 +305,8 @@ func localChecks(deep bool) []check {
 			}
 			return nil
 		}},
-		{"position 1,000,000 matches Bailey's published digits", func() error {
-			x, _ := evalX(1000000, nil)
+   		{"digit 1,000,000 onward matches Bailey's published digits", func() error {
+   			x, _ := evalX(999999, nil)
 			if got := fmt.Sprintf("%011x", x)[:10]; got != bailey1e6 {
 				return fmt.Errorf("got %s, want %s", got, bailey1e6)
 			}
